@@ -54,7 +54,7 @@ Ensure you have the following installed:
 ### Linux Command Line
 Update this README file directly with the corresponding command for each question. Assume the top-level directory is `/home/activity2`, which contains two subdirectories: `proj1` and `proj2`. Show the command to achieve each of the following:
 
-1. **Copy all `.py` files from `proj1` to `proj2` (keeping file names unchanged):** cp /home/activity2/proj1/*.py /home/activity2/proj2/
+1. **Copy all `.py` files from `proj1` to `proj2` (keeping file names unchanged):**<br>cp /home/activity2/proj1/*.py /home/activity2/proj2/
 2. **Copy all `.py` files from `proj1` to the top-level directory (keeping file names unchanged):** cp /home/activity2/proj1/*.py /home/activity2/
 3. **Copy `p1.txt` from `proj1` to `proj2` as `p1_new.txt` (from top-level directory):** cp /home/activity2/proj1/p1.txt /home/activity2/proj2/p1_new.txt
 4. **Create a subdirectory `proj3` under the top-level directory and copy all contents of `proj1` to it:** mkdir /home/activity2/proj3 --> cp -r /home/activity2/proj1/* /home/activity2/proj3/
